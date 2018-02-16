@@ -1,0 +1,32 @@
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+user agent stylesheet
+td, th {
+    display: table-cell;
+    vertical-align: inherit;
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+body {
+    width: 70%;
+    margin: 0 auto;
+}
+html {
+    display: block;
+}
